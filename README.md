@@ -18,9 +18,17 @@ This is a webhook solver for [cert-manager](https://cert-manager.io) that allows
 
 ### Install the webhook
 
+Add the Helm repository:
+
 ```bash
-helm install bunny-webhook ./deploy/bunny-webhook \
-  --namespace cert-manager
+helm repo add bunny-webhook https://dexxiez.github.io/cert-manager-webhook-bunny
+helm repo update
+```
+
+Install the webhook:
+
+```bash
+helm install bunny-webhook bunny-webhook/bunny-webhook --namespace cert-manager
 ```
 
 ### Create a secret with your Bunny.net API key
