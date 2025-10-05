@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  bunny-webhook:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2025-10-05T18:35:16.679334079+11:00"
+    description: A cert-manager webhook for Bunny.net DNS
+    digest: 403007a5967466c29c13342d467d35d4e859d2b9e57ff4b713305bb7e9267377
+    name: bunny-webhook
+    urls:
+    - https://dexxiez.github.io/cert-manager-webhook-bunny/bunny-webhook-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-10-05T18:35:16.679128964+11:00"
